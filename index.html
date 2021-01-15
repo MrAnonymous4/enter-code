@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enter code</title>
+	<link rel = "icon" href =  "logo.jpg" type = "image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="code.css">
+	<script type="text/javascript" src="code.js"></script>
+</head>
+<body bgcolor="#decc00" >
+	<img src="logo.jpg" style="float: left; padding-right: 50px; margin-top: 20px;" >
+	<div id="head">MrAnonymous</div>
+	<br><br><br><br>
+
+	<div class="line"></div><br><br><br>
+<p class="label">ENTER CODE<p><center>
+<input id="inp" type="text" placeholder="SEARCH HERE" >
+<button id="searcht" onclick="goto()">GO</button>
+<br><br>
+<h2>Please enter the code given in the video, to continue</h2>
+<br><br>
+
+<a href="https://www.youtube.com/channel/UClEIZdyltQ5WxY1fxh60itg" style="text-decoration:none" target="_blank">
+<p id="button">SUBSCRIBE</p></a>
+
+</center><br><br><br><br>
+<div class="line"></div>
+
+
+<div id="down"></div>
+
+<script>
+var input = document.getElementById("inp");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("searcht").click();
+  }
+});
+</script>
+</body>
+</html>

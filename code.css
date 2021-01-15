@@ -1,0 +1,65 @@
+body {
+	font-family: Agency Fb;
+	font-weight: bolder;
+}
+
+#head {
+	font-size: 90px;
+	padding-top: 60px;
+	color: #f0335b;
+}
+.line {
+	height: 60px;
+	background-color: #f0335b;
+	width: 100%;
+}
+.label {
+	font-size: 40px;
+	text-align: center;
+}
+#inp {
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	font-size: 25px;
+	font-family: comic sans ms;
+	font-weight: bolder;
+	color: #f0335b;
+
+}
+#searcht  {
+position: absolute;
+	height: 55px;
+	width: 70px;
+	z-index: 0;
+	color: white;
+	background-color: #f0335b; 
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 35px;
+}
+#button {
+	color: white;
+	font-size: 50px;
+	font-family: Illuma;
+	display: block;
+	margin-top: 50px;
+	background-color: #f0335b;
+	width: 40%;
+	padding : 50px;
+	font-weight: bolder;
+	border: 5px solid #f0335b;
+	border-radius: 50px;
+
+}
+#button:hover {
+	color: #f0335b;
+	background-color: white;
+}
+#down {
+	background-image: url(back.jpg);
+	height: 1000px;
+	opacity: 30%;
+}
